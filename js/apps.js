@@ -25,10 +25,7 @@ if (operation === "+") {
   }
 }
 calculator(
-  Number(prompt("enter second number")),
-  prompt("enter ope10"),
-  Number(prompt("enter first number"))
-);
-
-console.clear();
-console.log(2 ** 4);
+  Number(prompt("enter first number")),
+  prompt("enter operation"),
+  Number(prompt("enter second number"))
+)
